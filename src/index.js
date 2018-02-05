@@ -5,8 +5,6 @@ import store from './configureStore';
 import HomePage from './containers/HomePage';
 import registerServiceWorker from './registerServiceWorker';
 
-require('dotenv').config();
-
 ReactDOM.render(
   <Provider store={store}>
     <HomePage />
